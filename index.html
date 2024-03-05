@@ -1,1 +1,31 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/favicon.ico><title>dota-hero-picker-app</title><link href=/css/app.e89cc08a.css rel=preload as=style><link href=/js/app.57e02006.js rel=preload as=script><link href=/js/chunk-vendors.d44ea343.js rel=preload as=script><link href=/css/app.e89cc08a.css rel=stylesheet></head><body><noscript><strong>We're sorry but dota-hero-picker-app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.d44ea343.js></script><script src=/js/app.57e02006.js></script></body></html>
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv=X-UA-Compatible content="IE=edge">
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' code.jquery.com *.maestra.io 'unsafe-inline' 'unsafe-eval'">
+  <link rel=icon href=/favicon.ico>
+  <title>Test site to check tracker work with apichange project</title>
+  <script>
+		maestra = window.maestra || function() { maestra.queue.push(arguments); };
+		maestra.queue = maestra.queue || [];
+
+		maestra('create', {
+			endpointId: 'apichange.Website',
+			projectSystemName: 'apichange',
+			brandSystemName: 'apichange',
+			pointOfContactSystemName: 'Website',
+			projectDomain: 'apichange.maestra.io',
+			serviceDomain: 'api.maestra.io',
+		});
+    </script>
+    <script src="https://api.maestra.io/scripts/v1/tracker.js" async></script>
+</head>
+
+<body>
+  <h1>Checking tracker operation. Project: <a href="apichange.maestra.io">apichange</a> </h1>
+  <h2>Perform operation calls through the console</h2>
+</body>
+</html>
